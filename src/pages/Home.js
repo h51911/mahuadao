@@ -29,7 +29,7 @@ class Home extends Component{
                     <p><Icon type="search" /></p> 
             </div>
             <div className="main">
-                <div>
+                <div className="banner">
                      <Carousel autoplay>
                         <div>
                             <img alt="" src = "http://img.manhuadao.cn/upload/AdGroup201810/cjjpx720360.jpg"/>
