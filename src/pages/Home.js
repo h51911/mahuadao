@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import {Mhd} from "../api";
 import { Icon,Carousel} from 'antd';
 import "../css/home.css";
+import { Icon,Carousel,Row, Col}  from 'antd';
+import "../css/home.css";
+import {Router, Switch} from "react-router-dom";
+
 class Home extends Component{
     constructor(){
         super();
@@ -25,11 +29,13 @@ class Home extends Component{
         return <div className = "home">
             <div className="header">      
                     <p><Icon type="user" /></p>
+                    <p><Icon type="user" onClick={this.changeMenu}/></p>
                     <p>漫画岛</p>
                     <p><Icon type="search" /></p> 
             </div>
             <div className="main">
                 <div>
+                <div className="banner">
                      <Carousel autoplay>
                         <div>
                             <img alt="" src = "http://img.manhuadao.cn/upload/AdGroup201810/cjjpx720360.jpg"/>
@@ -50,6 +56,9 @@ class Home extends Component{
                             <img alt="" src = "http://img.manhuadao.cn/upload/AdGroup201901/eb16282222e144baa08b998b19998df7.jpg"/>
                         </div>
                     </Carousel>
+                </div>
+                <div className="nav">
+
                 </div>
             </div>
             <div className="footer"></div>
