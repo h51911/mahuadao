@@ -1,46 +1,64 @@
-import React, { Component } from 'react';
-import {Col,Row} from "antd";
-import "../css/Login.css"
+import React,{Component} from "react";
+import {Row} from "antd";
+import "../css/Login.css";
 
-class Login extends Component{
+class Login extends Component {
     constructor(props){
         super(props)
     }
+
+    // onblur() {
+    //     // Email地址：^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$
+    //     let val = email.value.trim();
+    //     let res = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+    //     if(val) {
+            
+    //     }
+    // }
+
     render(){
-        return (
+
+        return(
             <div className="login">
-              <Row className="header-normal">
-                  <Col span={18} push={6} className="header-back">
-                    
-                  </Col>
-                  <Col span={6} pull={18} className="header-title">
-                      我的
-                  </Col>
-              </Row>
-              <section className="mine-login">
-                 <div className="login-pic"></div>
-                 <p className="login-btn font-30">登录/注册</p>
-              </section>
-              <section className="mine-menu">
-                    <a className="menu-item" href="favorite.html?cpid=0">
-                        <span className="icon-fav"></span>
-                        <span className="item-text">收藏</span>
-                    </a>
-                    <a className="menu-item" href="history.html?cpid=0">
-                        <span className="icon-clock"></span>
-                        <span className="item-text">历史</span>
-                    </a>
-                    <a className="menu-item" href="about.html?cpid=0">
-                        <span className="icon-mhd"></span>
-                        <span className="item-text">关于漫画岛</span>
-                    </a>
-                    <a className="menu-item" href="feedback.html?cpid=0">
-                        <span className="icon-pencil"></span>
-                        <span className="item-text">反馈</span>
-                    </a>
-              </section>
-         </div>
-      )
+               <Row className="header-photo">
+                 <div className="icon-back"
+                  onClick={()=>this.props.history.push("/reg")}
+                 ></div>
+                 <div className="header-pic3"></div>
+               </Row>
+               <section className="register-main">
+                    <p className="input-group ">
+                        <label>邮<span className="hide">邮箱</span>箱：</label>
+                        <input type="text" placeholder="请输入你的邮箱"
+                        className="email"
+                        // onBlur={this.onblur()}
+                        />
+                    </p>
+                    <p className="input-group password">
+                        <label>密<span className="hide">密码</span>码：</label>
+                        <input type="password" placeholder="请设置6-16位的字母、数字、符号的密码"/>
+                    </p>
+                    <p className="input-group password">
+                        <label>确认密码：</label>
+                        <input type="password" placeholder="请再次输入你的密码"/>
+                    </p>
+                    <div className="register-btn">注册</div>
+                </section>
+                <footer className="register-footer">
+                    <p className="content ">已有账号？马上
+                    <span className="go-login"
+                    onClick={()=>this.props.history.push("/reg")}
+                    >登录</span>
+                    </p>
+                </footer>
+            </div>
+        )
     }
+
+    // 密码(以字母开头，长度在6~16之间，只能包含字母、数字和下划线)：^[a-zA-Z]\w{5,15}$
+    // Email地址：^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$
+
 }
-export default Login;
+
+
+export default Login
