@@ -74,7 +74,8 @@ input {
 }
 
 .login-btn {
-    height: .96rem;
+    height: .96rem !important;
+    width: 8.266667rem;
     margin: .53333333rem 0 0;
     line-height: .96rem;
     text-align: center;
@@ -83,6 +84,34 @@ input {
     border-radius: 6px;
     font-size: .34666667rem;
 }
+
+.ant-form-item-children{
+    height: .96rem !important;
+    width: 1.92rem !important;
+}
+
+.ant-btn {
+    height: .96rem !important;
+    width: 8.266667rem !important;
+    line-height: .96rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c17;
+    border-radius: 6px;
+    font-size: .34666667rem;
+}
+
+/* .ant-col {
+    height: .96rem !important;
+    width: 1.92rem !important;
+    margin: .53333333rem 0 0;
+    line-height: .96rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c17;
+    border-radius: 6px;
+    font-size: .34666667rem;
+} */
 
 .login-third{
     box-sizing: border-box;

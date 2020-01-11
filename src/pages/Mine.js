@@ -48,9 +48,9 @@ class Mine extends Component{
                         >反馈</span>
                     </a>
               </section>
-              <footer className="mine-logout3 
+              {/* <footer className="mine-logout3 
                 
-              ">退出登录</footer>
+              ">退出登录</footer> */}
          </div>
       )
     }
