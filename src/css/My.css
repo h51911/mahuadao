@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-.mine {
+.my {
     background: #f4f4f4 !important;
 }
 
@@ -39,7 +39,7 @@ body {
     font-size: .42666667rem;
 }
 
-.mine-login {
+.mine-info {
     box-sizing: border-box;
     display: flex;
     -webkit-box-align: center;
@@ -52,13 +52,56 @@ body {
     border-bottom: 1px solid #dddde4;
 }
 
-.login-pic{
+.info-pic{
     width: 1.73333333rem;
     height: 1.73333333rem;
     border: 1px solid #efefef;
     background: url(../img/logo.jpg);
     background-size: contain;
     border-radius: 50%;
+}
+
+.info-user {
+    margin: 0 0 0 .26666667rem;
+}
+
+.user-name {
+    color: #333;
+    font-weight: 500;
+}
+
+.user-id {
+    margin: .08rem 0 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.user-pay {
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin: .26666667rem 0 0;
+    font-size: .32rem;
+}
+
+.icon-daodan {
+    width: .30666667rem;
+    height: .32rem;
+    margin: 0 .10666667rem;
+   background: url(../img/Mischief.png) no-repeat;
+    background-size: contain;
+}
+
+.num-red {
+    color: #e7370c;
+}
+
+ .icon-ticket {
+    width: .37333333rem;
+    height: .32rem;
+    margin: 0 .10666667rem;
+    background: url(../img/Comic.png);
+    background-size: contain;
 }
 
  .login-btn2 {
@@ -94,6 +137,14 @@ body {
     height: .45333333rem;
     margin: 0 .4rem 0 0;
     background: url(../img/xing.png);
+    background-size: contain;
+}
+
+ .icon-wallet {
+    width: .48rem;
+    height: .48rem;
+    margin: 0 .4rem 0 0;
+    background: url(../img/money.png) no-repeat;
     background-size: contain;
 }
 

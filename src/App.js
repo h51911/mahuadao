@@ -4,13 +4,13 @@ import {menu} from "antd";
 import "antd/dist/antd.css";
 
 import Mine from "./pages/Mine";
+import My from "./pages/My";
 import Reg from "./pages/Reg";
 import Login from "./pages/Login";
 import Fankui from "./pages/Fankui";
 import About from "./pages/About";
 import Forget from "./pages/Forget";
 import hover from "./Backstage/hover";
-// import Logincopy from "./pages/Login copy";
 
 class App extends Component{
   constructor(props){
@@ -22,8 +22,8 @@ class App extends Component{
      return <div>
          <Switch>
              <Route path="/mine" component={Mine}></Route>
+             <Route path="/my" component={My}></Route>
              <Route path="/login" component={Login}></Route>
-             {/* <Route path="/log" component={log}></Route> */}
              <Route path="/reg" component={Reg}></Route>
              <Route path="/fankui" component={Fankui}></Route>
              <Route path="/about" component={About}></Route>
