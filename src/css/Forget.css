@@ -1,0 +1,54 @@
+.forget-header {
+    width: 10rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.forget .header-back {
+    width: .74666667rem;
+    height: .4rem;
+   background: url(../img/left.png);
+    background-size: contain;
+    position: absolute;
+    top: .58666667rem;
+    left: .42666667rem;
+}
+
+.forget .header-pic {
+    width: 7.09333333rem;
+    height: 8.66666667rem;
+    margin: 0 auto;
+    background: url(../img/forget.png) no-repeat;
+    background-size: contain;
+}
+
+.forget-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.66666667rem;
+    height: .82666667rem;
+    margin: .8rem auto;
+    color: #000;
+    font-weight: 600;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    position: relative;
+    font-size: .34666667rem;
+}
+
+.forget .forget-contact:before {
+    content: "";
+    width: .42666667rem;
+    height: .56rem;
+    background: url(../img/jiao.png);
+    background-size: contain;
+    position: absolute;
+    top: -.53333333rem;
+    right: 1.78666667rem;
+}
+.forget {
+    color: #5094f9;
+    position: absolute;
+    right: -50px;
+}

@@ -1,0 +1,164 @@
+body {
+    background: #fff !important;
+}
+
+.reg {
+    padding-bottom: 70px;
+    background: #fff;
+}
+
+.header-photo {
+    background: url(../img/background.png);
+    width: 10rem;
+    margin: 0 auto;
+    padding: 4.29333333rem 0 0;
+    background-size: cover;
+    position: relative;
+}
+
+.icon-back {
+    width: .64rem;
+    height: .34666667rem;
+    background: url(../img/left.png);
+    background-size: contain;
+    position: absolute;
+    top: .42666667rem;
+    left: .32rem;
+}
+
+.icon-reg {
+    width: 1.94666667rem;
+    height: 1.65333333rem;
+    line-height: 1.65333333rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: .4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../img/while.png);
+    background-size: contain;
+}
+
+.header-pic3 {
+    background: url(../img/Lovers.png);
+    width: 4.98666667rem;
+    height: 4.90666667rem;
+    margin: 0 auto;
+}
+
+.login-main {
+    box-sizing: border-box;
+    width: 10rem;
+    margin: .53333333rem auto;
+    padding: 0 .90666667rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    padding: 0 0 .13333333rem;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    font-size: .32rem;
+}
+
+.password {
+    margin: .8rem 0 0;
+}
+
+input {
+    width: 5.33333333rem;
+    border: none;
+}
+
+.forget {
+    color: #5094f9;
+    position: absolute;
+    right: 0;
+}
+
+.login-btn {
+    height: .96rem !important;
+    width: 8.266667rem;
+    margin: .53333333rem 0 0;
+    line-height: .96rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c17;
+    border-radius: 6px;
+    font-size: .34666667rem;
+}
+
+.ant-form-item-children {
+    height: .96rem !important;
+    width: 1.92rem !important;
+}
+
+.ant-btn {
+    height: .96rem !important;
+    width: 8.266667rem !important;
+    line-height: .96rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c17;
+    border-radius: 6px;
+    font-size: .34666667rem;
+}
+
+/* .ant-col {
+    height: .96rem !important;
+    width: 1.92rem !important;
+    margin: .53333333rem 0 0;
+    line-height: .96rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c17;
+    border-radius: 6px;
+    font-size: .34666667rem;
+} */
+
+.login-third {
+    box-sizing: border-box;
+    width: 10rem;
+    margin: .74666667rem auto;
+    padding: 0 .90666667rem;
+    position: relative;
+}
+
+.third-title {
+    width: 2.93333333rem;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    top: -.18666667rem;
+    left: 0;
+    right: 0;
+    font-size: .26666667rem;
+}
+
+.third-group {
+    display: flex;
+    align-items: center;
+    padding: .61333333rem 1.06666667rem 0;
+    border-top: 1px solid #ddd;
+}
+
+.login-qq {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../img/QQ.png) no-repeat;
+    background-size: contain;
+    padding-right: .266667rem;
+    margin-left: 1.066667rem;
+}
+
+.login-weibo {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../img/WEIBO.png) no-repeat;
+    background-size: contain;
+    margin-left: 1.333333rem;
+}
